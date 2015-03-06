@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <ImageView android:id="@id/iv_shadow" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ScrollView android:layout_gravity="left|center" android:id="@id/sv_left_menu" android:paddingLeft="30.0dip" android:scrollbars="none" android:layout_width="150.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_left_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ScrollView android:layout_gravity="right|center" android:id="@id/sv_right_menu" android:paddingRight="30.0dip" android:scrollbars="none" android:layout_width="150.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/layout_right_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+</merge>
